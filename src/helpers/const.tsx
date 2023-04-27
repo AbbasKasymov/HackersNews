@@ -1,0 +1,1 @@
+export const api = 'https://hacker-news.firebaseio.com/v0';
