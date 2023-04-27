@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Инструкция по запуску проекта
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Склонируйте репозиторий на свой компьютер с помощью команды:
+## git clone https://github.com/AbbasKasymov/HackersNews.git
 
-## Available Scripts
+* Перейдите в папку проекта с помощью команды:
+## cd my-app
 
-In the project directory, you can run:
+* Установите все необходимые зависимости, используя команду:
+`npm install`
 
-### `npm start`
+* Запустите приложение с помощью команды:
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Откройте свой любимый браузер и перейдите по адресу:
+## http://localhost:3000
+Вы должны увидеть ваше React-приложение, которое готово к использованию!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Структура проекта
+Если вы хотите внести изменения в проект, вот краткое описание структуры проекта:
 
-### `npm test`
+public - здесь располагаются общедоступные файлы проекта, такие как файл index.html;
+src - здесь располагаются исходные файлы проекта;
+components - здесь располагаются компоненты вашего React-приложения;
+App.js - главный файл приложения;
+index.js - файл, который рендерит React-компонент в HTML-код.
+Полезные команды
+Вот несколько полезных команд, которые вы можете использовать в своем проекте:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## npm start - запускает приложение в режиме разработки;
+## npm run build - создает оптимизированную версию приложения для развертывания;
+## npm test - запускает тесты в режиме просмотра;
+## npm run eject - извлекает конфигурационные файлы и скрипты из проекта.
